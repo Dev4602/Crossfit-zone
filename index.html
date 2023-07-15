@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossfit Zone</title>
+</head>
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family:'Franklin Gothic Medium';
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        color: white;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        
+        display: inline-block;
+        /* border: 2px solid red; */
+        
+        
+    }
+    
+    .left div{
+        text-align: center;
+        line-height: 20px;
+        font-size: 25px;
+    }
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid darkgray; */
+        font-size: 12px;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a :active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .left img{
+        width: 136px;
+        
+    }
+    .btn{
+        font-family:'Franklin Gothic Medium';
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: darkgray;
+    }
+    .container {
+        /* text-align: center; */
+   
+        border: 2px solid white;
+        margin: 90px 30px;
+        padding: 75px;
+        width: 300px;
+        /* display: block; */
+        border-radius: 28px;
+        font-size: 10px;
+        color : wheat;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        margin: 11px auto;
+        width: 290px;
+        padding: 1px;
+        border: 2px solid black;
+        font-size: 20px;
+        border-radius: 8px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 250px;
+        margin:  30px auto;
+    }
+
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="img/crossfit zone logo.png" alt="">
+            <div>Crossfit zone</div>
+
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fitness calculator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container right" >
+       <h1>
+          The best GYM is now in your town.          
+       </h1>
+       <h1>JOIN NOW !!!!!!!!!!</h1>
+       <form action="noaction.php">
+        <di class="form-group">
+            <input type="text" name="" placeholder="Enter your  Name">
+        </di>
+        <di class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </di>
+        <di class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </di>
+        <di class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </di>
+        <button class="btn">Submit</button>
+       </form>
+    </div>
+
+</body>
+
+</html>
